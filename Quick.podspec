@@ -11,8 +11,8 @@ Pod::Spec.new do |s|
   s.license      = { :type => "Apache 2.0", :file => "LICENSE" }
 
   s.author       = "Quick Contributors"
-  s.ios.deployment_target = "8.0"
-  s.osx.deployment_target = "10.10"
+  s.ios.deployment_target = "7.0"
+  s.osx.deployment_target = "10.9"
 
   s.source       = { :git => "https://github.com/Quick/Quick.git", :tag => "v#{s.version}" }
   s.source_files  = "Quick", "Quick/**/*.{swift,h,m}"
